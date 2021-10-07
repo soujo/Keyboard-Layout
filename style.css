@@ -1,0 +1,408 @@
+body {
+    background-color: rgb(6, 218, 6);
+}
+
+.layout {
+    border: 3px solid black;
+    border-radius: 16px;
+    height: 330px;
+    width: 800px;
+    display: block;
+    margin: auto;
+    background-color: rgb(31, 31, 31);
+    margin-top: 130px;
+    box-shadow: 7px 9px 16px 1px black;
+}
+
+header {
+    text-align: end;
+}
+
+.logo {
+    margin-right: 28px;
+    font-size: 2rem;
+    font-family: 'Yatra One', cursive;
+    color: yellow;
+    margin-bottom: 17px;
+    position: relative;
+    top: 11px;
+
+}
+
+
+
+
+.firstkeys {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-left: 3px;
+
+
+}
+
+.secondkeys {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-left: 2px;
+
+}
+
+.thirdkeys {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.fourthkeys {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+
+.fifthkeys {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 805px;
+    position: relative;
+    right: 3px;
+
+}
+
+.sixthkeys {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+
+.firstrow {
+    border: 1px solid rgb(136, 136, 136);
+    height: 24px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 42px;
+    margin-top: 6px;
+    background-color: rgb(0, 0, 0);
+    /* box-shadow: 1px 1px 4px 0px rgba(255, 255, 255, 0.5); */
+    color: yellow;
+
+
+}
+
+
+
+#Insert {
+    font-size: smaller;
+}
+
+#Delete {
+    font-size: smaller;
+}
+
+.secondrow {
+    border: 1px solid rgb(136, 136, 136);
+    height: 36px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 42px;
+    margin-top: 5px;
+    background-color: rgb(0, 0, 0);
+    /* box-shadow: 1px 1px 4px 0px rgba(255, 255, 255, 0.5); */
+    color: yellow;
+}
+
+#Backspace {
+    width: 75px;
+    line-height: 4px;
+    font-size: 15px;
+}
+
+
+.thirdrow {
+    border: 1px solid rgb(136, 136, 136);
+    height: 36px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 42px;
+    margin-top: 5px;
+    background-color: rgb(0, 0, 0);
+    /* box-shadow: 1px 1px 4px 0px rgba(255, 255, 255, 0.5); */
+    color: yellow;
+}
+
+#Tab {
+    width: 58px;
+
+
+}
+
+.tabtext {
+    position: relative;
+    right: 8px;
+}
+
+#slash {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#bracket {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.fourthrow {
+    border: 1px solid rgb(136, 136, 136);
+    height: 36px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 42px;
+    margin-top: 5px;
+    background-color: rgb(0, 0, 0);
+    /* box-shadow: 1px 1px 4px 0px rgba(255, 255, 255, 0.5); */
+    color: yellow;
+}
+
+#Enter {
+    width: 81px;
+}
+
+#caps {
+    width: 64px;
+    font-size: 13px;
+
+
+}
+
+.capstext {
+    position: relative;
+    right: 9px;
+}
+
+#semicolon {
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+#apostrophe {
+    font-size: 13px;
+    font-weight: bolder;
+
+}
+
+.fifthrow {
+    border: 1px solid rgb(136, 136, 136);
+    height: 36px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 42px;
+    margin-top: 5px;
+    background-color: rgb(0, 0, 0);
+    color: yellow;
+    /* box-shadow: 1px 1px 4px 0px rgba(255, 255, 255, 0.5); */
+}
+
+#lt {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+#gt {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+#questionmark {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+
+#rightshift {
+    width: 90px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+#leftshift {
+    width: 82px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.Rshifttext {
+    position: relative;
+    left: 6px;
+}
+
+.Lshifttext {
+    position: relative;
+    right: 19px;
+}
+
+.sixthrow {
+    border: 1px solid rgb(136, 136, 136);
+    height: 36px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 42px;
+    margin-top: 5px;
+    background-color: rgb(0, 0, 0);
+    color: yellow;
+    /* box-shadow: 1px 1px 4px 0px rgba(255, 255, 255, 0.5); */
+    
+}
+
+#leftctrl {
+    width: 50px;
+    border-bottom-left-radius: 12px;
+}
+
+#rightctrl {
+    width: 50px; 
+}
+
+#FN {
+    padding:2px;
+    border-radius: 4px;
+    width: min-content;
+    display: block;
+    margin: auto;
+    font-size: 14px;
+    background-color: yellow;
+    color: black;
+    font-weight: bolder;
+
+
+}
+
+img {
+    height: 36px;
+}
+
+.window_logo {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.window1 {
+    position: relative;
+    bottom: 5px;
+    left: 12px;
+    background-color: yellow;
+    height: 8px;
+    width: 8px;
+}
+
+.window2 {
+    position: relative;
+    bottom: 5px;
+    left: 12px;
+    background-color: yellow;
+    height: 8px;
+    width: 8px;
+}
+
+.window3 {
+    position: relative;
+    top: 6px;
+    right: 10.5px;
+    background-color: yellow;
+    height: 8px;
+    width: 8px;
+}
+
+.window4 {
+    position: relative;
+    top: 6px;
+    right: 10.5px;
+    background-color: yellow;
+    height: 8px;
+    width: 8px;
+}
+
+#spacebar {
+    width: 280px;
+}
+
+#upperarrow {
+
+    height: 14px;
+    position: relative;
+    bottom: 2px;
+    /* left: 20px; */
+    font-size: 10px;
+    font-weight: bolder;
+}
+
+#downarrow {
+
+    height: 14px;
+    position: relative;
+    top: 2px;
+    font-size: 10px;
+    font-weight: bolder;
+}
+
+#leftarrow {
+    font-weight: bolder;
+}
+
+#rightarrow {
+    font-weight: bolder;
+    border-bottom-right-radius: 12px;
+}
+
+.firstrow:hover {
+
+    box-shadow: 1px 1px 5px 0px rgb(238, 238, 238), -1px -1px 5px 1px rgb(238, 238, 238);
+}
+
+.secondrow:hover {
+
+    box-shadow: 1px 1px 5px 0px rgb(238, 238, 238), -1px -1px 5px 1px rgb(238, 238, 238);
+}
+
+.thirdrow:hover {
+
+    box-shadow: 1px 1px 5px 0px rgb(238, 238, 238), -1px -1px 5px 1px rgb(238, 238, 238);
+}
+
+.fourthrow:hover {
+
+    box-shadow: 1px 1px 5px 0px rgb(238, 238, 238), -1px -1px 5px 1px rgb(238, 238, 238);
+
+}
+
+.fifthrow:hover {
+
+    box-shadow: 1px 1px 5px 0px rgb(238, 238, 238), -1px -1px 5px 1px rgb(238, 238, 238);
+}
+
+
+.sixthrow:hover {
+
+    box-shadow: 1px 1px 5px 0px rgb(238, 238, 238), -1px -1px 5px 1px rgb(238, 238, 238);
+}
+
+.firstrow .secondrow .thirdrow .fourthrow .fifthrow .sixthrow{
+    box-shadow: 1px 1px 5px 0px rgb(238, 238, 238), -1px -1px 5px 1px rgb(238, 238, 238);
+}
